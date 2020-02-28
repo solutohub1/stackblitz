@@ -1,0 +1,10 @@
+<div class="container pt-5 mt-5">
+<div [formGroup]="ulog">
+   Username: <input type="text" class="form-control" formControlName="uname"><br><br>
+    Password: <input type="password" class="form-control" formControlName="pwd"><br><br>
+
+    <button [disabled]="!ulog.valid" (click)="login()" class="btn btn-primary form-control" >Login</button><br><br>
+
+</div>
+<a routerLink="uregister">Not a user? Register</a>
+</div>

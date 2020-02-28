@@ -1,0 +1,30 @@
+
+
+
+
+.card{
+    width: 900px;
+    display:inline-block;
+}
+#dd{
+    position: relative;
+    top:0px;
+    left:0px;    
+}
+#d1{
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+#main{
+
+    background-image: url("/assets/background1.jpg");
+    /* background-size: 100%; */
+
+}
+.d-md-block{
+    min-width: 0;
+}
+
+
